@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		041705F2276604F700847D21 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041705F1276604F700847D21 /* AppDelegate.swift */; };
+		041705F4276604F700847D21 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041705F3276604F700847D21 /* SceneDelegate.swift */; };
+		041705F6276604F700847D21 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041705F5276604F700847D21 /* ViewController.swift */; };
+		041705F9276604F700847D21 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 041705F7276604F700847D21 /* Main.storyboard */; };
+		041705FB2766050100847D21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 041705FA2766050100847D21 /* Assets.xcassets */; };
+		041705FE2766050100847D21 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 041705FC2766050100847D21 /* LaunchScreen.storyboard */; };
+		041706092766050200847D21 /* North_East_South_WestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041706082766050200847D21 /* North_East_South_WestTests.swift */; };
+		041706142766050200847D21 /* North_East_South_WestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041706132766050200847D21 /* North_East_South_WestUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		041706052766050200847D21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 041705E6276604F600847D21 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 041705ED276604F600847D21;
+			remoteInfo = "North East South West";
+		};
+		041706102766050200847D21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 041705E6276604F600847D21 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 041705ED276604F600847D21;
+			remoteInfo = "North East South West";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		041705EE276604F600847D21 /* North East South West.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "North East South West.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		041705F1276604F700847D21 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		041705F3276604F700847D21 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		041705F5276604F700847D21 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		041705F8276604F700847D21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		041705FA2766050100847D21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		041705FD2766050100847D21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		041705FF2766050100847D21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		041706042766050200847D21 /* North East South WestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "North East South WestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		041706082766050200847D21 /* North_East_South_WestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = North_East_South_WestTests.swift; sourceTree = "<group>"; };
+		0417060A2766050200847D21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0417060F2766050200847D21 /* North East South WestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "North East South WestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		041706132766050200847D21 /* North_East_South_WestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = North_East_South_WestUITests.swift; sourceTree = "<group>"; };
+		041706152766050200847D21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		041705EB276604F600847D21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		041706012766050200847D21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0417060C2766050200847D21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		041705E5276604F600847D21 = {
+			isa = PBXGroup;
+			children = (
+				041705F0276604F700847D21 /* North East South West */,
+				041706072766050200847D21 /* North East South WestTests */,
+				041706122766050200847D21 /* North East South WestUITests */,
+				041705EF276604F600847D21 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		041705EF276604F600847D21 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				041705EE276604F600847D21 /* North East South West.app */,
+				041706042766050200847D21 /* North East South WestTests.xctest */,
+				0417060F2766050200847D21 /* North East South WestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		041705F0276604F700847D21 /* North East South West */ = {
+			isa = PBXGroup;
+			children = (
+				041705F1276604F700847D21 /* AppDelegate.swift */,
+				041705F3276604F700847D21 /* SceneDelegate.swift */,
+				041705F5276604F700847D21 /* ViewController.swift */,
+				041705F7276604F700847D21 /* Main.storyboard */,
+				041705FA2766050100847D21 /* Assets.xcassets */,
+				041705FC2766050100847D21 /* LaunchScreen.storyboard */,
+				041705FF2766050100847D21 /* Info.plist */,
+			);
+			path = "North East South West";
+			sourceTree = "<group>";
+		};
+		041706072766050200847D21 /* North East South WestTests */ = {
+			isa = PBXGroup;
+			children = (
+				041706082766050200847D21 /* North_East_South_WestTests.swift */,
+				0417060A2766050200847D21 /* Info.plist */,
+			);
+			path = "North East South WestTests";
+			sourceTree = "<group>";
+		};
+		041706122766050200847D21 /* North East South WestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				041706132766050200847D21 /* North_East_South_WestUITests.swift */,
+				041706152766050200847D21 /* Info.plist */,
+			);
+			path = "North East South WestUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		041705ED276604F600847D21 /* North East South West */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 041706182766050200847D21 /* Build configuration list for PBXNativeTarget "North East South West" */;
+			buildPhases = (
+				041705EA276604F600847D21 /* Sources */,
+				041705EB276604F600847D21 /* Frameworks */,
+				041705EC276604F600847D21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "North East South West";
+			productName = "North East South West";
+			productReference = 041705EE276604F600847D21 /* North East South West.app */;
+			productType = "com.apple.product-type.application";
+		};
+		041706032766050200847D21 /* North East South WestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0417061B2766050200847D21 /* Build configuration list for PBXNativeTarget "North East South WestTests" */;
+			buildPhases = (
+				041706002766050200847D21 /* Sources */,
+				041706012766050200847D21 /* Frameworks */,
+				041706022766050200847D21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				041706062766050200847D21 /* PBXTargetDependency */,
+			);
+			name = "North East South WestTests";
+			productName = "North East South WestTests";
+			productReference = 041706042766050200847D21 /* North East South WestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0417060E2766050200847D21 /* North East South WestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0417061E2766050200847D21 /* Build configuration list for PBXNativeTarget "North East South WestUITests" */;
+			buildPhases = (
+				0417060B2766050200847D21 /* Sources */,
+				0417060C2766050200847D21 /* Frameworks */,
+				0417060D2766050200847D21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				041706112766050200847D21 /* PBXTargetDependency */,
+			);
+			name = "North East South WestUITests";
+			productName = "North East South WestUITests";
+			productReference = 0417060F2766050200847D21 /* North East South WestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		041705E6276604F600847D21 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					041705ED276604F600847D21 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					041706032766050200847D21 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 041705ED276604F600847D21;
+					};
+					0417060E2766050200847D21 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 041705ED276604F600847D21;
+					};
+				};
+			};
+			buildConfigurationList = 041705E9276604F600847D21 /* Build configuration list for PBXProject "North East South West" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 041705E5276604F600847D21;
+			productRefGroup = 041705EF276604F600847D21 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				041705ED276604F600847D21 /* North East South West */,
+				041706032766050200847D21 /* North East South WestTests */,
+				0417060E2766050200847D21 /* North East South WestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		041705EC276604F600847D21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				041705FE2766050100847D21 /* LaunchScreen.storyboard in Resources */,
+				041705FB2766050100847D21 /* Assets.xcassets in Resources */,
+				041705F9276604F700847D21 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		041706022766050200847D21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0417060D2766050200847D21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		041705EA276604F600847D21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				041705F6276604F700847D21 /* ViewController.swift in Sources */,
+				041705F2276604F700847D21 /* AppDelegate.swift in Sources */,
+				041705F4276604F700847D21 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		041706002766050200847D21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				041706092766050200847D21 /* North_East_South_WestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0417060B2766050200847D21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				041706142766050200847D21 /* North_East_South_WestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		041706062766050200847D21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 041705ED276604F600847D21 /* North East South West */;
+			targetProxy = 041706052766050200847D21 /* PBXContainerItemProxy */;
+		};
+		041706112766050200847D21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 041705ED276604F600847D21 /* North East South West */;
+			targetProxy = 041706102766050200847D21 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		041705F7276604F700847D21 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				041705F8276604F700847D21 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		041705FC2766050100847D21 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				041705FD2766050100847D21 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		041706162766050200847D21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		041706172766050200847D21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		041706192766050200847D21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7J5FP238Z3;
+				INFOPLIST_FILE = "North East South West/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "erotaibi.North-East-South-West";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0417061A2766050200847D21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7J5FP238Z3;
+				INFOPLIST_FILE = "North East South West/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "erotaibi.North-East-South-West";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0417061C2766050200847D21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7J5FP238Z3;
+				INFOPLIST_FILE = "North East South WestTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "erotaibi.North-East-South-WestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/North East South West.app/North East South West";
+			};
+			name = Debug;
+		};
+		0417061D2766050200847D21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7J5FP238Z3;
+				INFOPLIST_FILE = "North East South WestTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "erotaibi.North-East-South-WestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/North East South West.app/North East South West";
+			};
+			name = Release;
+		};
+		0417061F2766050200847D21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7J5FP238Z3;
+				INFOPLIST_FILE = "North East South WestUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "erotaibi.North-East-South-WestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "North East South West";
+			};
+			name = Debug;
+		};
+		041706202766050200847D21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7J5FP238Z3;
+				INFOPLIST_FILE = "North East South WestUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "erotaibi.North-East-South-WestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "North East South West";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		041705E9276604F600847D21 /* Build configuration list for PBXProject "North East South West" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				041706162766050200847D21 /* Debug */,
+				041706172766050200847D21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		041706182766050200847D21 /* Build configuration list for PBXNativeTarget "North East South West" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				041706192766050200847D21 /* Debug */,
+				0417061A2766050200847D21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0417061B2766050200847D21 /* Build configuration list for PBXNativeTarget "North East South WestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0417061C2766050200847D21 /* Debug */,
+				0417061D2766050200847D21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0417061E2766050200847D21 /* Build configuration list for PBXNativeTarget "North East South WestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0417061F2766050200847D21 /* Debug */,
+				041706202766050200847D21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 041705E6276604F600847D21 /* Project object */;
+}
