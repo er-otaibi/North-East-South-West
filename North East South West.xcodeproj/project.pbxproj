@@ -15,6 +15,7 @@
 		041705FE2766050100847D21 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 041705FC2766050100847D21 /* LaunchScreen.storyboard */; };
 		041706092766050200847D21 /* North_East_South_WestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041706082766050200847D21 /* North_East_South_WestTests.swift */; };
 		041706142766050200847D21 /* North_East_South_WestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041706132766050200847D21 /* North_East_South_WestUITests.swift */; };
+		041706222766081100847D21 /* DirectionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041706212766081100847D21 /* DirectionsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		0417060F2766050200847D21 /* North East South WestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "North East South WestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		041706132766050200847D21 /* North_East_South_WestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = North_East_South_WestUITests.swift; sourceTree = "<group>"; };
 		041706152766050200847D21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		041706212766081100847D21 /* DirectionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectionsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				041705F3276604F700847D21 /* SceneDelegate.swift */,
 				041705F5276604F700847D21 /* ViewController.swift */,
 				041705F7276604F700847D21 /* Main.storyboard */,
+				041706212766081100847D21 /* DirectionsViewController.swift */,
 				041705FA2766050100847D21 /* Assets.xcassets */,
 				041705FC2766050100847D21 /* LaunchScreen.storyboard */,
 				041705FF2766050100847D21 /* Info.plist */,
@@ -258,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				041706222766081100847D21 /* DirectionsViewController.swift in Sources */,
 				041705F6276604F700847D21 /* ViewController.swift in Sources */,
 				041705F2276604F700847D21 /* AppDelegate.swift in Sources */,
 				041705F4276604F700847D21 /* SceneDelegate.swift in Sources */,

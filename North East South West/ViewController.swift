@@ -9,11 +9,31 @@ import UIKit
 
 class ViewController: UIViewController {
 
+ 
+    
+    
     override func viewDidLoad() {
+       
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+       
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
 
+        let destination  = segue.destination as! DirectionsViewController
+
+        if let button = sender as? UIButton {
+            
+            destination.directionButton = button.titleLabel?.text
+  
+        }
+
+    }
+    
+    @IBAction func unwind( _ seg: UIStoryboardSegue) {
+        
+   
+    }
 
 }
 
